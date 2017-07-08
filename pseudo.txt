@@ -1,0 +1,26 @@
+
+//build the neural net
+//generate a population of weight sets
+
+//for each set,
+	//load the weights into the net
+	//for each picture,
+		//input it into the net
+		//process it through the net
+		//evaluate the outputs and update the score
+
+//until we have a full new population of weight sets,
+	//select/combine pairs using a weighted random process
+
+//replace prev generation with new generation
+//do it again
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+genetic functions:
+
+fitness
+roulette select
+combine genes
+mutate
+replace population
